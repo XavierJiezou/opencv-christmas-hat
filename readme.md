@@ -1,23 +1,23 @@
-# 1. 成果展示
+# 成果展示
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003223916.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003221839.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003234780.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
 
-# 2. 项目简介
-原理很简单，就是先把图像中的人脸检测出来，然后在人脸的上方添加**圣诞帽**。我们这里采用**opencv**来实现，所以建议你先了解一下如何在**python**中使用**opencv**检测图像中的脸部。
-# 3. 项目地址
-> [https://github.com/XavierJiezou/opencv-christmas-hat](https://github.com/XavierJiezou/opencv-christmas-hat)
-# 4. 预备知识
-> [【python】15行代码实现人脸检测（opencv）](https://blog.csdn.net/qq_42951560/article/details/111694348)
+# Introduce
+The principle is simple : First, detect faces in the image, and then add chritmas hat above the faces.
+
+# Preparation
+> [【python】15 lines of code to achieve human-face detection（opencv）](https://blog.csdn.net/qq_42951560/article/details/111694348)
 
 ![](https://img-blog.csdnimg.cn/20201228094823894.jpg#pic_center)
-> [【python】15行代码实现猫脸检测（opencv）](https://blog.csdn.net/qq_42951560/article/details/111831532)
+> [【python】15 lines of code to achieve cat-face detection（opencv）](https://blog.csdn.net/qq_42951560/article/details/111831532)
 
 ![](https://img-blog.csdnimg.cn/20201228102022683.jpg#pic_center)
-> [【python】15行代码实现动漫人脸检测（opencv）](https://blog.csdn.net/qq_42951560/article/details/111831797)
+> [【python】15 lines of code to achieve anime-face detection（opencv）](https://blog.csdn.net/qq_42951560/article/details/111831797)
 
 ![](https://img-blog.csdnimg.cn/20201228103025477.jpg#pic_center)
-# 5. 完整代码
+
+# Codes
 ```python
 import cv2
 import random
@@ -80,19 +80,19 @@ def main(fname):
 if __name__ == "__main__":
     main('img/test/test_3.jpg') # 这里输入要添加圣诞帽的图像路径
 ```
-# 6. 必要组件
-以下三个文件分别是人脸、猫脸和动漫脸的级联分类器：
-- `haarcascade_frontalface_alt.xml`：[点击下载](https://cdn.jsdelivr.net/gh/XavierJiezou/opecv-face-detect@master/data/haarcascades/human/haarcascade_frontalface_alt.xml)
-- `haarcascade_frontalcatface.xml`：[点击下载](https://cdn.jsdelivr.net/gh/XavierJiezou/opecv-face-detect@master/data/haarcascades/cat/haarcascade_frontalcatface.xml)
-- `lbpcascade_animeface.xml`：[点击下载](https://cdn.jsdelivr.net/gh/XavierJiezou/opecv-face-detect@master/data/lbpcascades/anime/lbpcascade_animeface.xml)
-# 7. 圣诞素材
+# Requirements
+The following three files are the cascade classifiers of human face, cat face and anime face:
+- `haarcascade_frontalface_alt.xml`：[download](https://cdn.jsdelivr.net/gh/XavierJiezou/opecv-face-detect@master/data/haarcascades/human/haarcascade_frontalface_alt.xml)
+- `haarcascade_frontalcatface.xml`：[download](https://cdn.jsdelivr.net/gh/XavierJiezou/opecv-face-detect@master/data/haarcascades/cat/haarcascade_frontalcatface.xml)
+- `lbpcascade_animeface.xml`：[download](https://cdn.jsdelivr.net/gh/XavierJiezou/opecv-face-detect@master/data/lbpcascades/anime/lbpcascade_animeface.xml)
+# Christmas material
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020123000442237.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230004422101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230004423774.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
-# 8. 引用参考
+# Cite
 > https://github.com/crossin/snippet/tree/master/face_detect
 
-# 9. 相关推荐
-> [【python】30行代码实现视频中的动漫人脸检测（opencv）](https://blog.csdn.net/qq_42951560/article/details/111870163)
+# Recommend
+> [【python】15 lines of code to achieve anime-face detection in the video（opencv）](https://blog.csdn.net/qq_42951560/article/details/111870163)
 
 ![](https://img-blog.csdnimg.cn/20201228165341951.gif#pic_center)
