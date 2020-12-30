@@ -1,7 +1,7 @@
 # 成果展示
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003223916.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003221839.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003234780.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003223916.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003221839.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230003234780.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70)
 
 # Introduce
 The principle is simple : First, detect faces in the image, and then add chritmas hat above the faces.
@@ -9,13 +9,13 @@ The principle is simple : First, detect faces in the image, and then add chritma
 # Preparation
 > [【python】15 lines of code to achieve human-face detection（opencv）](https://blog.csdn.net/qq_42951560/article/details/111694348)
 
-![](https://img-blog.csdnimg.cn/20201228094823894.jpg#pic_center)
+![](https://img-blog.csdnimg.cn/20201228094823894.jpg)
 > [【python】15 lines of code to achieve cat-face detection（opencv）](https://blog.csdn.net/qq_42951560/article/details/111831532)
 
-![](https://img-blog.csdnimg.cn/20201228102022683.jpg#pic_center)
+![](https://img-blog.csdnimg.cn/20201228102022683.jpg)
 > [【python】15 lines of code to achieve anime-face detection（opencv）](https://blog.csdn.net/qq_42951560/article/details/111831797)
 
-![](https://img-blog.csdnimg.cn/20201228103025477.jpg#pic_center)
+![](https://img-blog.csdnimg.cn/20201228103025477.jpg)
 
 # Codes
 ```python
@@ -86,13 +86,13 @@ The following three files are the cascade classifiers of human face, cat face an
 - `haarcascade_frontalcatface.xml`：[download](https://cdn.jsdelivr.net/gh/XavierJiezou/opecv-face-detect@master/data/haarcascades/cat/haarcascade_frontalcatface.xml)
 - `lbpcascade_animeface.xml`：[download](https://cdn.jsdelivr.net/gh/XavierJiezou/opecv-face-detect@master/data/lbpcascades/anime/lbpcascade_animeface.xml)
 # Christmas material
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020123000442237.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230004422101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230004423774.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020123000442237.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230004422101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230004423774.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQyOTUxNTYw,size_16,color_FFFFFF,t_70)
 # Cite
 > https://github.com/crossin/snippet/tree/master/face_detect
 
 # Recommend
 > [【python】30 lines of code to achieve anime-face detection in the video（opencv）](https://blog.csdn.net/qq_42951560/article/details/111870163)
 
-![](https://img-blog.csdnimg.cn/20201228165341951.gif#pic_center)
+![](https://img-blog.csdnimg.cn/20201228165341951.gif)
