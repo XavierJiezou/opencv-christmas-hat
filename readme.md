@@ -93,6 +93,6 @@ The following three files are the cascade classifiers of human face, cat face an
 > https://github.com/crossin/snippet/tree/master/face_detect
 
 # Recommend
-> [【python】15 lines of code to achieve anime-face detection in the video（opencv）](https://blog.csdn.net/qq_42951560/article/details/111870163)
+> [【python】30 lines of code to achieve anime-face detection in the video（opencv）](https://blog.csdn.net/qq_42951560/article/details/111870163)
 
 ![](https://img-blog.csdnimg.cn/20201228165341951.gif#pic_center)
