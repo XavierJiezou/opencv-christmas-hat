@@ -1,1 +1,1 @@
-pyinstaller -F -i favicon.ico christmas_hat.py
+pyinstaller -F -i favicon.ico christmas_hat_pack.py
